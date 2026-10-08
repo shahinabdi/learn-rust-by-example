@@ -1,0 +1,106 @@
+[package]
+name = "rust_tutorial"
+version = "0.1.0"
+edition = "2021"
+
+# Lessons live in examples/ (auto-discovered):
+#   cargo run  --example 01_basics
+#   cargo test --example 01_basics
+# Reference solutions live in solutions/ and are registered below:
+#   cargo test --example sol_01_basics
+
+[[example]]
+name = "sol_01_basics"
+path = "solutions/01_basics.rs"
+
+[[example]]
+name = "sol_02_control_flow"
+path = "solutions/02_control_flow.rs"
+
+[[example]]
+name = "sol_03_ownership"
+path = "solutions/03_ownership.rs"
+
+[[example]]
+name = "sol_04_borrowing"
+path = "solutions/04_borrowing.rs"
+
+[[example]]
+name = "sol_05_structs"
+path = "solutions/05_structs.rs"
+
+[[example]]
+name = "sol_06_enums_match"
+path = "solutions/06_enums_match.rs"
+
+[[example]]
+name = "sol_07_collections"
+path = "solutions/07_collections.rs"
+
+[[example]]
+name = "sol_08_errors"
+path = "solutions/08_errors.rs"
+
+[[example]]
+name = "sol_09_traits_generics"
+path = "solutions/09_traits_generics.rs"
+
+[[example]]
+name = "sol_10_lifetimes"
+path = "solutions/10_lifetimes.rs"
+
+[[example]]
+name = "sol_11_closures_iterators"
+path = "solutions/11_closures_iterators.rs"
+
+[[example]]
+name = "sol_12_smart_pointers"
+path = "solutions/12_smart_pointers.rs"
+
+[[example]]
+name = "sol_13_concurrency"
+path = "solutions/13_concurrency.rs"
+
+[[example]]
+name = "sol_14_modules"
+path = "solutions/14_modules.rs"
+
+[[example]]
+name = "sol_15_conversions_operators"
+path = "solutions/15_conversions_operators.rs"
+
+[[example]]
+name = "sol_16_custom_iterators"
+path = "solutions/16_custom_iterators.rs"
+
+[[example]]
+name = "sol_17_advanced_patterns"
+path = "solutions/17_advanced_patterns.rs"
+
+[[example]]
+name = "sol_18_more_collections"
+path = "solutions/18_more_collections.rs"
+
+[[example]]
+name = "sol_19_io_files"
+path = "solutions/19_io_files.rs"
+
+[[example]]
+name = "sol_20_testing"
+path = "solutions/20_testing.rs"
+
+[[example]]
+name = "sol_21_design_patterns"
+path = "solutions/21_design_patterns.rs"
+
+[[example]]
+name = "sol_22_generics_advanced"
+path = "solutions/22_generics_advanced.rs"
+
+[[example]]
+name = "sol_23_macros"
+path = "solutions/23_macros.rs"
+
+[[example]]
+name = "sol_24_unsafe_ffi"
+path = "solutions/24_unsafe_ffi.rs"
